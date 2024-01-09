@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background: gray;
+    overflow:auto; /*auto cria um scroll bar ao ultrapassar a altura, enquanto hidden esconde o excedente. A opção scroll sempre deixará um scrollbar mesmo que não tenha ultrapassado a altura.
+    Também é possível definir isoladamente overflow-x ou overflow-y  */
+}
